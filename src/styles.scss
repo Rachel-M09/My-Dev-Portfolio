@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root{
+  --color-primary: #141010;
+  --color-purple: #891180;
+  --color-cream-white: #fff6f6;
+
+}
+
+body {
+  font-family: "Lora", serif;
+  transition: all 2s ease-in-out;
+  background-color: var(--color-primary)
+
+}
+
+#brand-name {
+  color: $purple ;
+}
