@@ -5,19 +5,67 @@
 }
 
 :root{
-  --color-primary: #141010;
-  --color-purple: #891180;
-  --color-cream-white: #fff6f6;
+  --color-primary: #000000;
+  --color-secondary: #f5b553;
+  --color-dark: #670D2F;
+  --color-black: #FFF2E0;
 
 }
 
 body {
   font-family: "Lora", serif;
-  transition: all 2s ease-in-out;
-  background-color: var(--color-primary)
+  /*transition: all 2s ease-in-out;*/
+  background-color: var(--color-primary);
+  color: var(--color-cream-white);
+}
 
+footer {
+  color: var(--color-secondary);
+  text-align: center;
+  padding: 15px;
 }
 
 #brand-name {
-  color: $purple ;
+font-size: 35px;
+color: var(--color-secondary);
+font-style: italic;
+font-weight: 600;
 }
+
+#hero-content-col {
+  border: 1px solid;
+  border-radius: 8px;
+  margin-right: 10px;
+  height: 95vh;
+}
+
+#about-image-content-col {
+  margin-right: 15px;
+  height: 50vh;
+  width: 25px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+#about-text-content-col{
+  height: 80vh;
+  width: 95px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.content {
+  color: var(--color-secondary);
+  width: 100%;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  border: 1px solid;
+  margin-bottom: 10px;
+  border-radius: 16px;
+}
+
+
+

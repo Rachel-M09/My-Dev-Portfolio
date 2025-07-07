@@ -11,7 +11,7 @@
   <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet">
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body>
+<body id="home">
 
 <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
   <a id="brand-name" class="navbar-brand" href="#">Rachel.</a>
@@ -21,37 +21,60 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="navbar-nav" >
       <li class="nav-item active pr-4">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item pr-4">
-        <a class="nav-link" href="#">About </a>
+        <a class="nav-link" href="#about">About </a>
       </li>
       <li class="nav-item pr-4">
-        <a class="nav-link" href="#">Skills </a>
+        <a class="nav-link" href="#skills">Skills </a>
       </li>
       <li class="nav-item pr-4">
-        <a class="nav-link" href="#">Projects </a>
+        <a class="nav-link" href="#projects">Projects </a>
       </li>
       <li class="nav-item pr-4">
-        <a class="nav-link" href="#">Contact </a>
+        <a class="nav-link" href="#contact">Contact </a>
       </li>
     </ul>
   </div>
 </nav>
 
+<div class="content">
 
 <!--Hero section-->
-<section class="section sec2 hero"></section>
+<section class="section sec1 hero" id="hero">
+  <div class="container">
+   <div class="row">
+    <div id="hero-content-col" class="col">Text</div>
+    <div id="hero-content-col" class="col"> Image</div>
+   </div>
+  </div>
+</section>
 <!--About-->
-<section class="section sec3 about"></section>
+<section class="section sec2 about" id="about">
+  <h2>About Me</h2>
+    <div class="row">
+     <div id="about-image-content-col" class="col">Image</div>
+     <div id="about-text-content-col" class="col"> Text</div>
+    </div>
+</section>
 <!--Skills-->
-<section class="section sec4 skills"></section>
+<section class="section sec3 skills" id="skills">
+<div>Skills</div>
+</section>
 <!--Projects-->
-<section class="section sec5 projects"></section>
+<section class="section sec4 projects" id="projects">
+  <div>Projects</div>
+</section>
 <!--Contact-->
-<section class="section sec6 contact"></section>
+<section class="section sec5 contact" id="contact">
+  <div>Contact</div>
+</section>
+</div>
 <!--Footer-->
-<footer></footer>
+<footer>
+  <div>This is a footer</div>
+</footer>
 
 <script src="index.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
