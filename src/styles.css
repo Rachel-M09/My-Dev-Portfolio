@@ -46,6 +46,10 @@ footer {
   font-weight: 600;
 }
 
+.navbar-brand:hover {
+  color: #FFF2E0;
+}
+
 .nav-link {
   font-weight: 500;
 }
@@ -109,4 +113,15 @@ footer {
   width: 100%;
   height: auto;
   margin-top: 60px;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*About*/
+#about-header {
+  margin-top: 120px;
+  text-align: center;
+}
+
+/*Skills*/
+/*Projects*/
+/*Contact*/
+/*Footer*//*# sourceMappingURL=styles.css.map */
