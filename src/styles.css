@@ -24,6 +24,21 @@ footer {
   padding: 15px;
 }
 
+/*NAVBAR*/
+#home-link {
+  color: antiquewhite;
+}
+
+#home-link.active {
+  color: var(--color-secondary);
+}
+
+#nav {
+  background: var(--color-primary);
+  position: fixed;
+  z-index: 500;
+}
+
 .navbar-brand {
   font-size: 35px;
   color: var(--color-secondary);
@@ -61,24 +76,6 @@ footer {
   color: #f5b553;
 }
 
-#home-link {
-  color: antiquewhite;
-}
-
-#home-link.active {
-  color: var(--color-secondary);
-}
-
-#hero-text {
-  padding-top: 120px;
-}
-
-#nav {
-  background: var(--color-primary);
-  position: fixed;
-  z-index: 500;
-}
-
 .nav-link {
   margin-left: 60px;
   font-weight: 500;
@@ -101,4 +98,15 @@ footer {
 
 .btn-close {
   background-color: antiquewhite;
+}
+
+/*HERO Section*/
+#hero-text {
+  margin-top: 120px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
 }/*# sourceMappingURL=styles.css.map */
